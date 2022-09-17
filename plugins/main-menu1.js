@@ -3,7 +3,7 @@ let moment = require('moment-timezone')
 let time = moment.tz('Asia/Jakarta').format("HH:mm:ss")
 let date = moment.tz('Asia/Jakarta').format("dddd, Do MMMM, YYYY")
 
-conn.sendButtonDoc(m.chat, 'Hai @user,Klik Menunya Agar Menampilkan Semua Menu 😼\n\nɴᴏᴛᴇ: Bantu Subscribe Aku Yah 👉 https://youtube.com/channel/UCrGzDGJAwlNqBx2h0NMHXjA', data.namabot, 'Menunya', '.m', fake, { contextInfo: {
+conn.sendButtonDoc(m.chat, 'Hai @%name , Klik Menunya Agar Menampilkan Semua Menu 😼\n\nɴᴏᴛᴇ: Bantu Subscribe Aku Yah 👉 https://youtube.com/channel/UCrGzDGJAwlNqBx2h0NMHXjA', data.namabot, 'Menunya', '.m', fake, { contextInfo: {
 externalAdReply :{
     showAdAttribution: true,
     mediaUrl: data.sc,
