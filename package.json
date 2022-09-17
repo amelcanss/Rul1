@@ -1,5 +1,5 @@
 {
-    "name": "BOT-MD",
+    "name": "Hiro-Md",
     "version": "3.5.1",
     "description": "Simple Bot WhatsApp with Baileys Multi Device",
     "depecrated": false,
@@ -30,7 +30,7 @@
     ],
     "homepage": "https://github.com/sadteams/bot-md",
     "author": {
-        "name": "Kangsad01"
+        "name": "Akmal"
     },
     "repository": {
         "type": "git",
