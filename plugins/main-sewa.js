@@ -4,7 +4,7 @@ let handler = async (m, { conn }) => {
     pepe = 'https://i.ibb.co/BzR1jRq/08a088fe953b.jpg'
     baper = await fetch(pepe).then(a => a.buffer())
     let listMessage = {
-        "title": "◈ Made by The.sad.boy01",
+        "title": "◈ Made by Akmal",
         "description": `
 ┌「 *Sewa bot* 」
 │     
@@ -17,7 +17,7 @@ let handler = async (m, { conn }) => {
 ├ Rp. 10,000 Pulsa Three
 │
 ├ tertarik? hubungi: 
-├ @62895336282144 (The.sad.boy01)
+├ @6281269734000 (Akmal)
 └────
 `.trim(),
         "listType": "PRODUCT_LIST",
