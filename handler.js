@@ -545,7 +545,7 @@ module.exports = {
                                 console.error(e)
                             }
                         }
-                        if (m.limit) m.reply(+ m.limit + ' Limit terpakai')
+                        if (m.limit) m.reply(+ m.limit + ' Limit Dipakai')
                         //jika risih matiin aja 
                     }
                     break
@@ -632,9 +632,9 @@ module.exports = {
                 break
 
             case 'promote':
-                text = (chat.sPromote || this.spromote || conn.spromote || '@user ```is now Admin```')
+                text = (chat.sPromote || this.spromote || conn.spromote || '@user ```Sekarang Admin Coy!```')
             case 'demote':
-                if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```is no longer Admin```')
+                if (!text) text = (chat.sDemote || this.sdemote || conn.sdemote || '@user ```Bukan Admin Lagi Coy!```')
                 text = text.replace('@user', '@' + participants[0].split('@')[0])
                 if (chat.detect) this.reply(id, text, {
                     contextInfo: {
@@ -697,8 +697,8 @@ Untuk mematikan fitur ini, ketik
 
  global.dfail = async (type, m, conn) => {
     let msg = {
-        rowner: 'Perintah ini hanya dapat digunakan oleh _*Team Bot Discussion!1!1!*_',
-        owner: 'Perintah ini hanya dapat digunakan oleh _*Team Bot Discussion!1!1!*_',
+        rowner: 'Perintah ini hanya dapat digunakan oleh _*Owner*_',
+        owner: 'Perintah ini hanya dapat digunakan oleh _*Owner*_',
         mods: 'Perintah ini hanya dapat digunakan oleh *Moderator*',
         premium: 'Perintah ini hanya untuk member _*Premium*_ !',
         group: 'Perintah ini hanya dapat digunakan di grup!',
