@@ -720,8 +720,8 @@ Untuk mematikan fitur ini, ketik
     mediaUrl: data.sc,
     mediaType: 2,
     description: '', 
-    title: 'Hay Kak',
-    body: 'Join Gc Bot Kak',
+    title: 'Hai kak',
+    body: 'Bantu Subscribe Yt Bot Kak',
     thumbnail: await(await fetch(img)).buffer(),
     sourceUrl: data.sc
      }}
