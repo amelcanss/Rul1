@@ -9,12 +9,12 @@ let handler = async (m, { conn }) => {
 ┌「 *Sewa bot* 」
 │     
 ├ 1 Grup / 30 Hari
-├ Rp. 10,000 Gopay
-├ Rp. 15,000 Pulsa Three
+├ 20 World Lock/7,000 Dana
+├ Rp. 10,000 Telkomsel
 │
-├ 1 Premium / 30 Hari
-├ Rp. 5,000 Gopay
-├ Rp. 10,000 Pulsa Three
+├ 1 Premium / Permanent
+├ Rp. 120 World Lock/10,000 Dana
+├ Rp. 15,000 Telkomsel
 │
 ├ tertarik? hubungi: 
 ├ @6281269734000 (Akmal)
@@ -34,11 +34,11 @@ let handler = async (m, { conn }) => {
             ],
             "headerImage": {
                 "productId": "4730029423700586",
-                "jpegThumbnail": baper
+                "jpegThumbnail": Niat Sewa Ga?
             },
-            "businessOwnerJid": "6288217277973@s.whatsapp.net"
+            "businessOwnerJid": "6281269734000@s.whatsapp.net"
         },
-        "footerText": "https://wa.me/c/6288217277973\n\nowner number : wa.me/62895336282144"
+        "footerText": "https://wa.me/c/6288217277973\n\nowner number : wa.me/6281269734000"
     }
     conn.sendMessage(m.chat, listMessage, 'listMessage', { quoted: m, contextInfo: { mentionedJid: conn.parseMention(listMessage.description) } })
 }
